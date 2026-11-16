@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#17130b">
+<link rel="stylesheet" href="style.css">
+<title>プライバシーポリシー｜灯（ともしび）</title>
+</head><body>
+<header class="bar"><a class="mark" href="index.html"><img src="mark.png" alt=""><span>灯</span></a><nav><a href="index.html">ホーム</a><a href="support.html">サポート</a><a href="privacy.html" aria-current="page">プライバシー</a></nav></header>
+<main>
+<h1>プライバシーポリシー</h1>
+<p>小林弘（以下「運営者」）は、iOS・Android アプリ「灯（ともしび）」（以下「本アプリ」）における利用者の情報の取り扱いを、以下のとおり定めます。</p>
+
+<h2>1. 端末の中に保存する情報</h2>
+<p>日記の本文、えらばれた漢字とその読み・意味・理由、設定（演出の音、AI への送信の同意など）は、利用者の端末の中だけに保存されます。本アプリにはアカウント登録・ログインの機能はありません。</p>
+
+<h2>2. AI へ送信する情報（漢字をえらぶとき）</h2>
+<p>本アプリは、利用者が「今日の一文字」をえらぶ操作をしたときにだけ、次の情報を運営者のサーバー（Cloudflare, Inc. の Cloudflare Workers）を経由して、OpenAI, L.L.C. の API へ送信します。この送信は、利用者が本アプリ内で同意した場合にのみ行います。</p>
+<table><tr><th>送信するもの</th><th>目的</th></tr>
+<tr><td>日記の本文（その日のぶん）</td><td>その日の漢字一文字と、読み・意味・理由を作るため</td></tr>
+<tr><td>表示言語、直近にえらばれた漢字</td><td>結果の言語を合わせ、同じ漢字の繰り返しを避けるため</td></tr>
+<tr><td>匿名 ID（端末ごとに本アプリが作る無作為な値）、操作ごとの ID</td><td>1日の利用回数を数え、二重の送信を防ぐため</td></tr></table>
+<p><strong>運営者のサーバーでの扱い:</strong> 日記の本文は OpenAI への中継にだけ使い、保存もログへの記録もしません。保存するのは、利用回数と操作ごとの ID だけです。利用回数を数えるために、匿名 ID と IP アドレスを、元に戻せない形（ハッシュ）に変換して使います。</p>
+<p><strong>OpenAI での扱い:</strong> 送信した内容は、OpenAI の定めに従って扱われます。OpenAI は、API で受け取った内容をモデルの学習には使わないとしており、不正利用の監視のために一定期間（最大30日間）保持することがあります。くわしくは <a href="https://openai.com/policies/privacy-policy/">OpenAI のプライバシーポリシー</a> をご覧ください。</p>
+<p><strong>同意の変更:</strong> 同意は、本アプリの「設定」の「AIへの送信」からいつでも取り消せます。同意しない場合も、日記の記録と閲覧は使えます。氏名や住所など、送りたくない情報は日記に書かないか、その日は漢字をえらばないようにしてください。</p>
+
+<h2>3. 広告（Google AdMob）</h2>
+<p>本アプリは、Google LLC の広告配信サービス「Google AdMob」を利用して広告を表示します。AdMob は広告の配信・効果測定のため、IP アドレス、端末やアプリの情報、広告識別子（Android の広告 ID など）を取得することがあります。iOS では、本アプリはトラッキングの許可を求めないため、広告識別子（IDFA）は使われません。Android では、端末の「設定」&gt;「プライバシー」&gt;「広告」から広告 ID を削除・リセットできます。くわしくは <a href="https://policies.google.com/technologies/partner-sites?hl=ja">Google のポリシー</a> をご覧ください。日記の本文は、広告のために送信されません。</p>
+
+<h2>4. バックアップ</h2>
+<p>「設定」の「バックアップ」は、日記をファイルに書き出し、利用者が選んだ保存先・共有先へ渡す機能です。運営者はこのファイルを受け取りません。</p>
+
+<h2>5. 情報の削除</h2>
+<p>日記は、詳細画面の「削除」で1件ずつ消せます。本アプリを削除すると、端末に保存された情報はすべて消えます。運営者のサーバーには日記の本文を保存していないため、運営者側で削除する本文はありません。OpenAI・Google へ送られた情報は、各社のポリシーに従って扱われます。</p>
+
+<h2>6. 改定</h2>
+<p>本ポリシーを変更する場合は、このページでお知らせします。</p>
+
+<h2>7. お問い合わせ</h2>
+<p>小林弘<br>メール: <a href="mailto:mdiz1103@gmail.com">mdiz1103@gmail.com</a></p>
+
+<p class="muted">制定日: 2026年11月16日</p>
+</main>
+<footer>© 2026 小林弘 — 灯（ともしび）</footer>
+</body>
+</html>
